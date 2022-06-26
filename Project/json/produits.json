@@ -1,0 +1,55 @@
+{
+	"liste" : [
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films2.jpg",
+			"prix" : 5,
+			"details" : "Fantasy ",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films3.jpg",
+			"prix" : 5.95,
+			"details" : "LOGAN",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films4.jpg",
+			"prix" : 19.95,
+			"details" : "Film Posters ",
+			"inCart": 0
+		},
+
+		{
+			"description" : "Film Drama",
+			"image" : "../img/joker.jpg",
+			"prix" : 15.95,
+			"details" : "Joker 2021",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/widow.jpg",
+			"prix" : 25.95,
+			"details" : "Black Widow",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/spider.jpg",
+			"prix" : 59.95,
+			"details" : "Spider Man 3",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/2.jpg",
+			"prix" : 55.95,
+			"details" : "SkyFall",
+			"inCart": 0
+		}
+		
+	]
+}

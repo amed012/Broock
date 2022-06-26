@@ -1,0 +1,54 @@
+{
+	"liste" : [
+		{
+			"description" : "Jeux Video PS",
+			"image" : "../img/JEUX1.jpg",
+			"prix" : 15.95,
+			"details" : "Fast and furious",
+			"inCart": 0
+		},
+		{
+			"description" : "Jeux Video PS",
+			"image" : "../img/Jeux2.jpg",
+			"prix" : 45.95,
+			"details" : "JOMANJI",
+			"inCart": 0
+		},
+		{
+			"description" : "Jeux Video PS",
+			"image" : "../img/jeux3.jpg",
+			"prix" : 49.95,
+			"details" : "Assassin creed",
+			"inCart": 0
+		},
+
+        {
+			"description" : "Jeux Video PS",
+			"image" : "../img/assas.png",
+			"prix" : 25.95,
+			"details" : "Action",
+			"inCart": 0
+		},
+		{
+			"description" : "Jeux Video PS",
+			"image" : "../img/reddead.jpg",
+			"prix" : 95.95,
+			"details" : "JOMANJI",
+			"inCart": 0
+		},
+		{
+			"description" : "Jeux Video PS",
+			"image" : "../img/coverj.png",
+			"prix" : 10.95,
+			"details" : "Cover Fire",
+			"inCart": 0
+        },
+        {
+			"description" : "Jeux Video PS",
+			"image" : "../img/rememberme.jpg",
+			"prix" : 75.95,
+			"details" : "Remember Me",
+			"inCart": 0
+		}
+	]
+}

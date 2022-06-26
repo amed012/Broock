@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films Liste</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+        integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        #card_hover:hover{
+        border-radius: 0%;
+        box-shadow: 0px 0px 1px 1px;
+    }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./Home.html"><img src='../img/Ahmed.png' width="80px" height="75px" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Home.html"><i
+                                class="bi bi-speedometer2"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-book"></i> Livres
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Livres.html">Informatique</a></li>
+                            <li><a class="dropdown-item" href="./Livres.html">Litterature</a></li>
+                            <li><a class="dropdown-item" href="./Livres.html">Geographie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-camera-reels"></i> Films
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Films.html">Sciences Fictions</a></li>
+                            <li><a class="dropdown-item" href="./Films.html">Comedie</a></li>
+                            <li><a class="dropdown-item" href="./Films.html">Drame</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-controller"></i> Jeux Videos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Jeux.html">Play Station</a></li>
+                            <li><a class="dropdown-item" href="./Jeux.html">XBox</a></li>
+                            <li><a class="dropdown-item" href="./Jeux.html">Nintendo Wii u</a></li>
+                        </ul>
+                    </li>
+                    <li class="cart nav-item" style="margin-top: 7px;">
+                        <a href="./Cart.html" style="text-decoration: none;color:grey"><i class="bi bi-basket"></i>
+                            <span>0</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+
+    <main>
+        <br>
+        <br>
+        <br>
+        <div align="center">
+            <h1 class="display-6" align="center">Our Films</h1>
+            <hr style="width:200px">
+        </div>
+        <br>
+        <br>
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-3" align="center" id="data">
+
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <br>
+    <br>
+    <footer class="py-5 bottom bg-dark">
+      
+        <br>
+        <div class="container">
+            <div class="row text-white" align="center">
+                <div class="col-lg-4">
+                    <p>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1jQxAJ4V4RDjwSaz3fUaPjQWCYFG3i6Ak"
+                            width="100%" height="250"></iframe>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Pour nous joindre</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <p><strong class="typebouchervile"><i class="bi bi-geo-alt-fill"></i> :</strong>
+                                813 Benjamin Loiseau<br />
+                                Boucherville,Québec,J4B 3T2
+                            </p>
+                        </li>
+                        <li class="nav-item mb-2"><i class="bi bi-telephone"></i> : <a href="Tel:5148748588">
+                                514-874-8588 </a></li>
+                        <li class="nav-item mb-2"><i class="bi bi-envelope"></i> : <a
+                                href="mailto:info@BrooleandCo.com"> info@BrookeandCo.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 ">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column text-white">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script type="text/javascript">
+
+        var liste = [
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films2.jpg",
+			"prix" : 5,
+			"details" : "Fantasy ",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films3.jpg",
+			"prix" : 5.95,
+			"details" : "LOGAN",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/films4.jpg",
+			"prix" : 19.95,
+			"details" : "Film Posters ",
+			"inCart": 0
+		},
+
+		{
+			"description" : "Film Drama",
+			"image" : "../img/joker.jpg",
+			"prix" : 15.95,
+			"details" : "Joker 2021",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/widow.jpg",
+			"prix" : 25.95,
+			"details" : "Black Widow",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/spider.jpg",
+			"prix" : 59.95,
+			"details" : "Spider Man 3",
+			"inCart": 0
+		},
+		{
+			"description" : "Film science fiction",
+			"image" : "../img/2.jpg",
+			"prix" : 55.95,
+			"details" : "SkyFall",
+			"inCart": 0
+		},	     
+        {
+			"description" : "Film science fiction",
+			"image" : "../img/ambulance.jpg",
+			"prix" : 5.95,
+			"details" : "Ambullance",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Action",
+			"image" : "../img/bad.jpg",
+			"prix" : 15.95,
+			"details" : "Bad-Boys",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Drama",
+			"image" : "../img/chutesandladders.jpg",
+			"prix" : 35.95,
+			"details" : "Chutes And Ladders",
+			"inCart": 0
+		},
+        {
+			"description" : "Film science fiction",
+			"image" : "../img/cov.jpg",
+			"prix" : 15.95,
+			"details" : "Cover",
+			"inCart": 0
+		},
+        {
+			"description" : "Film History",
+			"image" : "../img/dunkirk.jpg",
+			"prix" : 55.95,
+			"details" : "Dunkirk",
+			"inCart": 0
+		},
+        {
+			"description" : "Film science fiction",
+			"image" : "../img/hobbit.jpg",
+			"prix" : 100,
+			"details" : "The Hobbit",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Action",
+			"image" : "../img/Mad_Max_Fury_Road.jpg",
+			"prix" : 5.95,
+			"details" : "Mad Max Fury Road",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Science Fiction",
+			"image" : "../img/matrix.jpg",
+			"prix" : 35.55,
+			"details" : "Matrix",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Science Fiction",
+			"image" : "../img/venom.jpg",
+			"prix" : 30.15,
+			"details" : "Venom",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Science Fiction",
+			"image" : "../img/waterman.jpg",
+			"prix" : 10.15,
+			"details" : "Water Man",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Horror",
+			"image" : "../img/chhorii.jpg",
+			"prix" : 17.15,
+			"details" : "ChhorII",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Action",
+			"image" : "../img/therookies.png",
+			"prix" : 27.15,
+			"details" : "The Rookies",
+			"inCart": 0
+		},
+        {
+			"description" : "Film Action",
+			"image" : "../img/snowwhite.jpg",
+			"prix" : 20.25,
+			"details" : "Snow White Hunsman",
+			"inCart": 0
+		}
+	]
+    liste.forEach((dat) => {
+
+                document.getElementById('data').innerHTML +=
+
+                "<div class='col mb-4' ><div class='card' id='card_hover' style='height:320px;width:80%'> <img src='" + dat.image + "' width='100%' height='150px' class='card-img-top' alt='' /><div class='card-body'><h5>" + dat.details + "</h5><h4>" + dat.prix + " $</h4><p>" + dat.description + "</p><button class='addcart btn btn-secondary'> <i class='bi bi-cart-plus'></i> add</button><br></div></div></div>";
+           
+        });
+
+    </script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jsCode.js"></script>
+
+</body>
+
+</html>

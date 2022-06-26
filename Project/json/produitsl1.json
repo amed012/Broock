@@ -1,0 +1,60 @@
+{
+	"liste" : [
+		{
+			"id" : 1,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/LIVRES1.jpg",
+			"prix" : 35.95,
+			"details" : "RESEAUX INFORMATIQUE",
+			"inCart": 0
+		},
+		{
+			"id" : 2,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/php.png",
+			"prix" : 55,
+			"details" : "Learn PHP",
+			"inCart": 0
+		},
+		{
+			"id" : 3,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/LIVRES3.jpg",
+			"prix" : 19,
+			"details" : "SECURITE INFORMATIQUE",
+			"inCart": 0
+		},
+		{
+			"id" : 4,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/LIVRES2.jpg",
+			"prix" : 25.95,
+			"details" : "DEVELOPPEMENT INFORMATIQUE",
+			"inCart": 0
+		},
+		{
+			"id" : 5,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/pyt.jpg",
+			"prix" : 30,
+			"details" : "Learn Python",
+			"inCart": 0
+		},
+		{
+			"id" : 6,
+			"description" : "LIVRES INFORMATIQUE",
+			"image" : "../img/lin.png",
+			"prix" : 29.95,
+			"details" : "SECURITE Linux",
+			"inCart": 0
+		},
+		{
+			"id" : 7,
+			"description" : "LIVRES Francais",
+			"image" : "../img/boite.jpg",
+			"prix" : 10.95,
+			"details" : "La Boite à Merveilles",
+			"inCart": 0
+		}
+    ]
+}
